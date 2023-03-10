@@ -1,0 +1,6 @@
+print("Input 10 integers:")
+nums = list(map(int, input().split()))
+nums.sort()
+nums.reverse()
+print("After sorting the said integers:")
+print(*nums)
