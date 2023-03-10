@@ -1,9 +1,9 @@
-L=[] 
-print('Enter a word ',end=' ') 
-str=input() 
-L=str 
-print(L) 
-L=sorted(str) 
-print('The sorted list contains ::') 
-print(L)
-
+import math
+print("Enter the number: ",end=' ')
+num=int(input())
+s= math.sqrt(num)
+if math.ceil(s)==math.floor(s) :
+    print("It is a perfect square")
+else:
+    print("It is not a perfect square")
+        

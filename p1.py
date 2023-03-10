@@ -1,12 +1,9 @@
-L=[] 
-print('Enter 10 number into a list ', end='\n') 
-for i in range(0,int(10)): 
-    inp=int(input()) 
-    L.append(inp)  
-print(L) 
-sum=0 
-for i in range(0,int(10)): 
-    if L[i] % 3==0 or L[i]%5 ==0: 
-        sum+=L[i] 
-print('Sum of numbers divisible by 3 or 5 are ::', sum)
-
+import math
+print('Enter three angles')
+angle1=int(input())
+angle2=int(input())
+angle3=int(input())
+if angle1==90 or angle2==90 or angle3==90:
+   print('It is an right angled triangle')
+else:
+    print('It is not an right angled triangle')
