@@ -1,6 +1,9 @@
-my_str = "Hello I'm Rishiraj Saha"
-words = [word.lower() for word in my_str.split()]
-words.sort()
-print("The sorted words are:")
-for word in words:
-   print(word)
+L=[] 
+print('Enter a word ',end=' ') 
+str=input() 
+L=str 
+print(L) 
+L=sorted(str) 
+print('The sorted list contains ::') 
+print(L)
+

@@ -1,14 +1,18 @@
-l=[]
-e=0
-for i in range(10):
-    e=int(input()) 
-    l.append(e)
-length=len(l)
-for i in range(length-1):  
-        minIndex = i  
-        for j in range(i+1, length):  
-            if l[j]<l[minIndex]:  
-                minIndex = j  
-                l[i]= l[minIndex]
-                l[minIndex] =l[i]  
-print("The sorted array is: ", l)  
+L=[] 
+print('Enter 10 numbers into a list ', end='\n') 
+for i in range(0,10): 
+    inp=int(input()) 
+    L.append(inp) 
+print(L) 
+for i in range(0,10): 
+    small=L[i] 
+    posn=i 
+    for j in range(int(i+1), int(10)): 
+        if L[j]<small: 
+            small=L[j] 
+            posn=j 
+    temp=L[i] 
+    L[i]=small 
+    L[posn]=temp 
+print('The sorted list contains ::') 
+print(L)
