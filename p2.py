@@ -1,14 +1,10 @@
-import math
-list30=[ 'November','April','June','September' ]
-list31= ['January','March','May','July','August','October','December']
-print('Enter number of days')
-days=int(input())
-if days==30:
-    print(list30)
-elif days==31:
-    print(list31)
-elif days==28 or days==29:
-    print('February')
-else:
-    print('Invalid Input')
-    
+print('How many circles ?')
+n=int(input())
+pi=3.14
+i=1
+while i<=n:
+    print('Enter radius ')
+    radius=float(input())
+    circumference=pi*radius*2
+    print('Circumference =',circumference)
+    i+=1

@@ -1,14 +1,7 @@
-print('Enter the mass :',end=' ')
-mass=int(input())
-print('Enter the height :',end=' ')
-height=int(input())
-bmi= mass / (height ** 2)
-if bmi>23:
-    print('Overweight')
-elif bmi>=18 and bmi<=23:
-    print('Ok')
-elif bmi<18:
-    print('Underweight')
-else:
-    print('Invalid')
+print('Enter the total number of natural numbers ?')
+n=int(input())
+for i in range(0,n):
+    sum=sum+n+1
+print('sum =',sum)
+    
 

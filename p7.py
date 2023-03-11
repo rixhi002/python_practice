@@ -1,7 +1,11 @@
-import math
-print('Enter the number:',end=' ')
-n=int(input())
-print('Natural log :' + str(math.log(n)))
-print('Absolute Value :' + str(math.fabs(n)))
-print('Square root :' + str(math.sqrt(n)))
-      
+print("Enter the value of a")
+a=int(input())
+s =0
+sign=1
+for i in range(0,11):
+    a=a ** i
+    s+=a
+    a*=sign
+    sign=-1
+print("Sum =",s)
+    

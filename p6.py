@@ -1,8 +1,9 @@
-print('Enter three sides')
-side1=int(input())
-side2=int(input())
-side3=int(input())
-if (side1+side3)>side2 and (side2+side1)>side3 and (side3+side2)>side1:
-   print('Triangle can be formed')
-else:
-    print('Triangle cannot be formed')
+print('Enter the total number of natural numbers ?')
+n=int(input())
+sum=0
+for i in range(1,n+1):
+    sum+=i
+    
+print('sum =',sum)
+    
+

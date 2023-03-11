@@ -1,13 +1,6 @@
-print('Enter the year :')
-year=int(input())
-if year%400==0 :
-    print("It is a leap year")
-elif year%100==0 :
-    print("It is not a leap year")
-elif year%4==0 :
-    print("It is a leap year")
-else :
-    print("It is not a leap year")
-    
-
-    
+print("Enter the value of n")
+n=int(input())
+print("Enter the factors are:")
+for i in range(1,n+1):
+    if n % i ==0:
+        print(i)

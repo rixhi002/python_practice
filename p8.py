@@ -1,9 +1,7 @@
-import math
-print("Enter the number: ",end=' ')
-num=int(input())
-s= math.sqrt(num)
-if math.ceil(s)==math.floor(s) :
-    print("It is a perfect square")
-else:
-    print("It is not a perfect square")
-        
+print("Enter the value of a")
+a=int(input())
+s =0
+for i in range(1,11):
+    a=a ** i
+    s+=1/a
+print("Sum =",s)
