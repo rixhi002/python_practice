@@ -1,7 +1,6 @@
-print('Enter the total number of natural numbers ?')
+print("Enter the value of n")
 n=int(input())
-for i in range(0,n):
-    sum=sum+n+1
-print('sum =',sum)
-    
 
+for k in range(1,n):
+ print((k**2)-1)
+  
