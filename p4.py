@@ -1,15 +1,14 @@
-
-
-for i in range(0,20):
-    print("Enter the age: ")
-    n=int(input())
-    if n>0 and n<=3:
-        print("Infant")
-    elif n>3 and n<=12:
-        print("Kid")
-    elif n>12 and n<=19:
-        print("Adolescence")
-    elif n>20:
-        print("Adult")
-    else:
-        print("invalid")
+import math
+import sys
+print("m=")
+m=int(input())
+print("n=")
+n=int(input())
+print("Perfect squares are:")
+if m<nand m!=0 and n!=0:
+    for i in range(m,n+1):
+        if math.sqrt(i**2)==i:
+            print(i)
+else:
+    print("Invalid Input")
+    sys.exit(0)

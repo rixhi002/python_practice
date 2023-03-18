@@ -1,4 +1,15 @@
-print("Enter the height in cm")
-for i in range(0,10):
- n=int(input())
- print("Value in meters:",n/100)
+print("Enter the value of m:",end=' ')
+m=int(input())
+print("Enter the value of n:",end=' ')
+n=int(input())
+sum1=0
+sum2=0
+for i in range(m,n+1):
+    if m%2==0:
+        sum1+=i
+    else:
+        sum2+=i
+print("Sum of even numbers:",sum1)
+print("Sum of odd numbers:",sum2)
+
+ 

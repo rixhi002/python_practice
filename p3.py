@@ -1,6 +1,9 @@
-print("Enter the value of n")
-n=int(input())
-
-for k in range(1,n):
- print((k**2)-1)
-  
+num=0
+for i in range(0,50):
+    print("Enter a number:")
+    n=int(input())
+    if n%5==0:
+        print(n)
+    if(n%10==0)
+        num+=1
+print("Number of digits ending with zero:",num)
