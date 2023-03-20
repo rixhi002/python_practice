@@ -1,4 +1,10 @@
-print("Enter the number:")
-n=int(input())
-for i in range(1,13):
-    print(n*i)
+print("Enter the principal :",end=' ')
+principal=int(input())
+print("Enter the rate :",end= ' ')
+rate = float(input())
+print("Enter the time taken :",end=' ')
+time=int(input())
+si= (principal * rate * time)/100
+amt = principal *(1 + (rate*time))
+print("The simple interest is :",si)
+print("The amount is :",amt)

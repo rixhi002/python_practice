@@ -1,3 +1,8 @@
-for i in range(1,20):
- if i%2!=0:
-     print(i)
+print("Enter the intial velocity :",end=' ')
+u= float(input())
+print("Enter the acceleration :",end=' ')
+a = float(input())
+print("Enter the time taken :",end=' ')
+t = float(input())
+s = (u*t) + 0.5 * a * (t ** 2)
+print("The value of s is :",s)

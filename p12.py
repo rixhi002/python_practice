@@ -1,8 +1,6 @@
-
-for i in range(0,10):
-    print("Enter the number:")
-    n=int(input())
-    if n<0:
-        print(n*-1)
-    else:
-        print(n)
+print("Enter the altitude :",end=' ')
+alt= int(input())
+print("Enter the base :",end=' ')
+base = int(input())
+area = (alt*base)/2
+print("The area is :",area)
