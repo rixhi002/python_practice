@@ -1,9 +1,15 @@
-f=1
-s=1
-print("Enter the value :")
+print("Enter the value of m:",end=' ')
+m=int(input())
+print("Enter the value of n:",end=' ')
 n=int(input())
-for i in range(1,n+1):
-    for j in range(1,i+1):
-       f*=j
-    s+=(1/f)
-print(s)
+sum1=0
+sum2=0
+for i in range(m,n+1):
+    if m%2==0:
+        sum1+=i
+    else:
+        sum2+=i
+print("Sum of even numbers:",sum1)
+print("Sum of odd numbers:",sum2)
+
+ 

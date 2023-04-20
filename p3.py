@@ -1,13 +1,9 @@
-import math
-s=0
-print("Enter the value :")
-x=int(input())
-for i in range(1,7):
-    f=1
-    for j in range(1,i+1):
-        f*=j
-    if i%2==0:
-        s=s-math.pow(x,i)/f
-    else:
-        s=s+math.pow(x,i)/f
-print(s)
+num=0
+for i in range(0,50):
+    print("Enter a number:")
+    n=int(input())
+    if n%5==0:
+        print(n)
+    if(n%10==0)
+        num+=1
+print("Number of digits ending with zero:",num)
